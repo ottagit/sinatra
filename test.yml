@@ -1,0 +1,9 @@
+---
+George of the Jungle: !ruby/object:Movie
+  title: George of the Jungle
+  director: John Doe
+  year: 2004
+London Has Fallen: !ruby/object:Movie
+  title: London Has Fallen
+  director: Jane Doe
+  year: 2015
