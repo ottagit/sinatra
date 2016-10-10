@@ -11,5 +11,5 @@ require 'sinatra'
     @first = 2
     @second = 6
     @result = @first * @second
-    erb :multplication
+    erb :multiplication
  end
