@@ -4,18 +4,14 @@
   <meta charset='UTF-8'/>
   <title>My Movies</title>
  </head>
+ 
  <body>
-  <% if true %>
-  <h1>My Movies</>
+  <h1>My Movies</h1>
+   <ul>
+   <% @movies.each do |movie| %>
+   <li><%= movie.title %></li>
   <% end %>
-  <% if true %>
-  <h1>Yes display</h1>
-  <% end %> 
-  <ul>
-    <li><%= @movies.title %></li>
-    <li>go</li>
-    <li>here</li>
-   </ul>
- <a href="/movies/new">Add a new movie</a>
-  </body>
+  </ul>
+
+ </body>
 </html>
