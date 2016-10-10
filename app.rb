@@ -12,6 +12,14 @@ get('/movies') do
   erb :index
 end
 
-get ('/movies/new')do
+get('/movies/new')do
   erb :new
+end
+
+post('/movies/create')do
+  "Received: #{params.inspect}"
+  @movie = Movie.new
+  @movie.title = params['title']
+  @movie.director = params['director']
+  @movie.year = params['year']
 end
