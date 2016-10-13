@@ -1,6 +1,7 @@
-# require 'movie'
-require 'yaml/store'
+# require 'movie' 
 
+require 'yaml/store'
+ 
 class MovieStore
 
   def initialize(file_name)
@@ -19,7 +20,7 @@ class MovieStore
   
   def all
    @store.transaction do
-    @store.roots.map {|key| @store[key]} 
+    @store.roots.map {|id| @store[id]} 
    end  
   end
 
