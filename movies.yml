@@ -1,0 +1,26 @@
+---
+1: !ruby/object:Movie
+  title: Inferno
+  director: Moto Baridi
+  year: '2016'
+  id: 1
+2: !ruby/object:Movie
+  title: The Accountant
+  director: Know Not
+  year: '2016'
+  id: 2
+3: !ruby/object:Movie
+  title: Soko Mjinga
+  director: Mall Sharp
+  year: '2016'
+  id: 3
+4: !ruby/object:Movie
+  title: Mr Right
+  director: Mrs Wrong
+  year: '2015'
+  id: 4
+5: !ruby/object:Movie
+  title: Test
+  director: Jane Doe
+  year: '2014'
+  id: 5
