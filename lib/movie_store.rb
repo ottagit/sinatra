@@ -23,7 +23,7 @@ class MovieStore
     @store[2] = 'The Accountant'
     @store[3] = 'Soko Mjinga'
 
-    p @store.roots
+    #p @store.roots
     p @store.roots.map {|key| @store[key]} 
    end  
   end
