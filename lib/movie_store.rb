@@ -16,5 +16,16 @@ class MovieStore
    @store[movie.id] = movie
    end
   end
+  
+  def all
+   store.transaction do
+    @store[1] = 'Inferno'
+    @store[2] = 'The Accountant'
+    @store[3] = 'Soko Mjinga'
+
+    p @store.roots
+    p @store.roots.map {|key| @store[key]} 
+   end  
+  end
 
 end
