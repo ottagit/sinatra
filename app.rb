@@ -6,7 +6,7 @@ store = MovieStore.new('movies.yml')
 
 
 get('/movies') do
-   @movies = @store.all 
+   @movies = store.all 
   erb :index
 end
 
