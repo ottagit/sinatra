@@ -20,7 +20,7 @@ class MovieStore
   
   def all
    @store.transaction do
-    @store.roots.map {|id| @store[id]} 
+    @store.roots.map {|key| @store[key]} 
    end  
   end
 
