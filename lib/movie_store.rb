@@ -1,5 +1,5 @@
 # require 'movie'
-require 'YAML::Store'
+require 'yaml/store'
 
 class MovieStore
 
