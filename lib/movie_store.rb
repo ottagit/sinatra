@@ -18,7 +18,7 @@ class MovieStore
   end
   
   def all
-   store.transaction do
+   @store.transaction do
     @store[1] = 'Inferno'
     @store[2] = 'The Accountant'
     @store[3] = 'Soko Mjinga'
