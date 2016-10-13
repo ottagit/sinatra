@@ -4,7 +4,7 @@ require 'yaml/store'
 class MovieStore
 
   def initialize(file_name)
-   @store = YAML::Store.new('file_name') #create store that reads/writes file_name
+   @store = YAML::Store.new('movies.yml') #create store that reads/writes file_name
   end
 
   def saveMovie(movie) # save a movie to the store
